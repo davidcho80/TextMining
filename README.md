@@ -51,6 +51,3 @@ library(RColorBrewer)
 - **Kevin Seongho Na**
 - [컨트리뷰터 리스트](https://github.com/DrKevin22/TextMining/graphs/contributors)
 
-## License
-
- MIT License - see the [LICENSE.md](LICENSE.md) file for details
