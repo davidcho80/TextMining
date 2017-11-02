@@ -4,7 +4,7 @@
 #--------------------------------------------------------------------------
 
 # 작업경로 설정
-wdir <- "~/Jupyter/TextMining/Data"
+wdir <- "~/Data"
 
 # 텍스트 데이터 목록 확인
 (fileList <- list.files(path=wdir))
