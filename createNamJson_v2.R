@@ -141,12 +141,12 @@ createNamJson <-
     m <- sort(match(ut, vocab))
     
     tmp <- term.topic.frequency[, m]
-    ##########################################
-    #er <- row(tmp)[tmp >= 0.5]
-    #tmp2 <- cbind(tmp, topicNum = as.integer(row.names(mds.res)))
-    #tmp3<-as.data.frame(tmp2[er,])
-    #r<-as.integer(tmp3$topicNum)
-    #########################################
+    #-------------------------------------------------------------
+    # er <- row(tmp)[tmp >= 0.5]
+    # tmp2 <- cbind(tmp, topicNum = as.integer(row.names(mds.res)))
+    # tmp3 <- as.data.frame(tmp2[er,])
+    # r <- as.integer(tmp3$topicNum)
+    #-------------------------------------------------------------
     r <- row(tmp)[tmp >= 0.5]
     c <- col(tmp)[tmp >= 0.5]
     dd <- data.frame(
@@ -156,8 +156,7 @@ createNamJson <-
       stringsAsFactors = FALSE
     )
     
-    dd[, "Freq"] <-
-      dd[, "Freq"] / term.frequency[match(dd[, "Term"], vocab)]
+    dd[, "Freq"] <- dd[, "Freq"] / term.frequency[match(dd[, "Term"], vocab)]
     token.table <- dd[order(dd[, 1], dd[, 2]),]
     RJSONIO::toJSON(
       list(
