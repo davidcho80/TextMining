@@ -1,6 +1,8 @@
 # Text Mining R Code
 
-크롤링부터 토픽 클러스터링(LDA)까지 코멘트가 되어있는 R 코드 입니다.
+데이터 전처리부터 토픽 클러스터링(LDA)까지 코멘트가 되어있는 R 코드 입니다.
+웹데이터 크롤링은 [Crawler Repo](http://github.com/DrKevin22/Crawler)에 올린 "다양한 블로그 수집하기"를 참조하시기 바랍니다. 
+현재 파이썬 코드로 작성되어 있으며, 곧 R 코드로도 작성하여 공유할 예정입니다. 
 
 ## Getting Started
 
@@ -40,7 +42,7 @@ library(RColorBrewer)
 
 ### Installing
 
-파일을 실행시키면서 만나게 될때마다 설치하시면 됩니다 ㅜㅜ
+파일을 실행시키면서 만나게 될때마다 설치하시면 됩니다.
 
 ## Contributing
 
