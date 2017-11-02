@@ -12,7 +12,6 @@
 
 ```text
 .
-├── createNamJson_v2.R
 ├── Step1 Text data preparation.R
 ├── Step2 Explorative Data Analysis.R
 ├── Step3 Create xlsx file and Parsing.R
@@ -21,6 +20,7 @@
 ├── Step6 Extract related keywords.R
 ├── Step7 WordCloud and Treemap.R
 ├── Step8 Topic clustering (LDA).R
+├── createNamJson_v2.R
 └── stopwords.txt
 ```
 ### Prerequisites
@@ -50,4 +50,9 @@ library(RColorBrewer)
 
 - **Kevin Seongho Na**
 - [컨트리뷰터 리스트](https://github.com/DrKevin22/TextMining/graphs/contributors)
+
+## Others
+
+- R 코드들은 패스트캠퍼스 "비즈니스  활용 사례로 배우는 텍스느마이닝"의 강의 자료를 일부 수정한 것입니다. 
+- 전체 공유에 문제가 될 경우 고지해주시면 감사하겠습니다.
 
