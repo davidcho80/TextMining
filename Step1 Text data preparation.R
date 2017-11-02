@@ -5,7 +5,7 @@
 #--------------------------------------------------------------------------
 
 # 작업경로 설정
-wdir <- "~/Desktop/Crawler/Data"
+wdir <- "./Input"
 
 # 텍스트 데이터 목록 확인
 (fileList <- list.files(path = wdir))
