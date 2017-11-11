@@ -26,6 +26,7 @@
 ├── Step6 Extract related keywords.R
 ├── Step7 WordCloud and Treemap.R
 ├── Step8 Topic clustering (LDA).R
+├── Step9 Network Map.R
 ├── createNamJson_v2.R
 └── stopwords.txt
 ```
@@ -37,6 +38,8 @@
 library(readxl)
 library(ggplot2)
 library(slam)
+library(network)
+library(sna)
 library(tm)
 library(xlsx)
 library(NLP4kec)
@@ -59,6 +62,5 @@ library(RColorBrewer)
 
 ## Others
 
-- R 코드들은 패스트캠퍼스 "비즈니스  활용 사례로 배우는 텍스느마이닝"의 강의 자료를 일부 수정한 것입니다. 
+- 위의 R 코드들은 패스트캠퍼스 "비즈니스 활용 사례로 배우는 텍스트마이닝"의 강의 자료를 저의 스타일로 재편성한 것입니다. 
 - 전체 공유에 문제가 될 경우 고지해주시면 감사하겠습니다.
-
